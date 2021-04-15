@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!-- Ao clicar no botão, será enviado
+        para o servidor (action) por método get
+        uma variável chamada 'nome' com o valor
+        digitado pelo usuário.
+        -->
+        <form action="http://127.0.0.1:4000" method="get">
+            Digite seu 1° Numero: <input name="n1"><br>
+            Digite seu 2° Numero: <input name="n2"><br>
+            Escolha sua Operação:<br>
+            <select name="op">
+                <option value="-"></option>
+                <option value="somar">+</option>
+                <option value="sub">-</option>
+                <option value="mult">*</option>
+                <option value="div">/</option>
+            </select>
+            <button>Enviar</button>
+        </form>
+
+    </body>
+</html>
